@@ -114,34 +114,168 @@
 
     <script>
         const itemsDatabase = {
-            weapon: [
-            "Extended Magazine", "Close Quarters", "Headshot Booster", 
-            "High Velocity Rounds", "Monster Rounds", "Rapid Rounds", "Restorative Shot",
-            "Active Reload", "Backstabber", "Fleetfoot", "Kinetic Dash", "Intensifying Magazine", "Opening Rounds", "Slowing Bullets",
-            "Long Range", "Melee Charge", "Mystic Shot", 
-            "Spirit Shredder Bullets", "Swift Striker", "Split Shot", "Titanic Magazine", "Weakening Headshot",
-            "Burst Fire", "Escalating Resilience", "Headhunter", 
-            "Hunters Aura", "Point Blank", 
-            "Sharp Shooter", "Tesla Bullets", 
-            "Titanic Magazine", "Toxic Bullets",
-            "Alchemical Fire", "Berserker", "Blood Tribute", "Cultist Sacrifice", "Express Shot", "Heroic Aura", "Hollow Point",
-            "Spirit Zalupa",
-            "Crippling Headshot", "Frenzy", "Glass Cannon", 
-            "Lucky Shot", "Ricochet", "Silencer", 
-            "Spiritual Overflow", "Armor Piercing Rounds", "Capacitor", "Crushing Fists", "Shadow Weave", "Spell Slinger"
-        ],
-        vitality: [
-            "Extra Health", "Extra Regen", "Sprint Boots", "Healing Rite",
-            "Enduring Speed", "Reactive Barrier", "Debuff Reducer", "Bullet Armor",
-            "Spirit Armor", "Fortitude", "Lifestrike", "Rescue Beam",
-            "Colossus", "Unstoppable", "Inhibitor", "Phantom Strike"
-        ],
-        spirit: [
-            "Extra Charge", "Extra Spirit", "Mystic Burst", "Spirit Strike",
-            "Cold Front", "Decay", "Withering Whip", "Slowing Hex",
-            "Duration Extender", "Improved Reach", "Silence Wave", "Surge of Power",
-            "Boundless Spirit", "Diviner's Kevlar", "Escalating Exposure", "Refresher"
-        ]
+            "weapon": [
+    "Active Reload",
+    "Alchemical Fire",
+    "Armor Piercing Rounds",
+    "Ballistic Enchantment",
+    "Berserker",
+    "Blood Tribute",
+    "Burst Fire",
+    "Capacitor",
+    "Close Quarters",
+    "Crippling Headshot",
+    "Crushing Fists",
+    "Cultist Sacrifice",
+    "Escalating Resilience",
+    "Express Shot",
+    "Extended Magazine",
+    "Fleetfoot",
+    "Frenzy",
+    "Glass Cannon",
+    "Headhunter",
+    "Headshot Booster",
+    "Heroic Aura",
+    "High Velocity Rounds",
+    "Hollow Point",
+    "Hunters Aura",
+    "Intensifying Magazine",
+    "Kinetic Dash",
+    "Long Range",
+    "Lucky Shot",
+    "Melee Charge",
+    "Monster Rounds",
+    "Mystic Shot",
+    "Opening Rounds",
+    "Point Blank",
+    "Rapid Rounds",
+    "Recharging Rush",
+    "Restorative Shot",
+    "Ricochet",
+    "Shadow Weave",
+    "Sharpshooter",
+    "Silencer",
+    "Slowing Bullets",
+    "Spellslinger",
+    "Spirit Rend",
+    "Spirit Shredder Bullets",
+    "Spiritual Overflow",
+    "Split Shot",
+    "Stalker",
+    "Swift Striker",
+    "Tesla Bullets",
+    "Titanic Magazine",
+    "Toxic Bullets",
+    "Weakening Headshot",
+    "Weighted Shots"
+  ],
+  "vitality": [
+    "Battle Vest",
+    "Bullet Lifesteal",
+    "Bullet Resilience",
+    "Cheat Death",
+    "Colossus",
+    "Counterspell",
+    "Debuff Reducer",
+    "Dispel Magic",
+    "Divine Barrier",
+    "Diviner_s Kevlar",
+    "Enchanter_s Emblem",
+    "Enduring Speed",
+    "Extra Health",
+    "Extra Regen",
+    "Extra Stamina",
+    "Fortitude",
+    "Fury Trance",
+    "Guardian Ward",
+    "Healbane",
+    "Healing Booster",
+    "Healing Nova",
+    "Healing Rite",
+    "Healing Tempo",
+    "Indomitable",
+    "Infuser",
+    "Inhibitor",
+    "Juggernaut",
+    "Leech",
+    "Lifestrike",
+    "Majestic Leap",
+    "Melee Lifesteal",
+    "Metal Skin",
+    "Phantom Strike",
+    "Plated Armor",
+    "Reactive Barrier",
+    "Rebuttal",
+    "Rescue Beam",
+    "Restorative Locket",
+    "Return Fire",
+    "Siphon Bullets",
+    "Spellbreaker",
+    "Spirit Lifesteal",
+    "Spirit Resilience",
+    "Spirit Shielding",
+    "Sprint Boots",
+    "Stamina Mastery",
+    "Trophy Collector_T2",
+    "Trophy Collector_T3",
+    "Unstoppable",
+    "Vampiric Burst",
+    "Veil Walker",
+    "Warp Stone",
+    "Weapon Shielding",
+    "Witchmail"
+  ],
+  "spirit": [
+    "Arcane Surge",
+    "Arctic Blast",
+    "Boundless Spirit",
+    "Bullet Resist Shredder",
+    "Cold Front",
+    "Compress Cooldown",
+    "Cursed Relic",
+    "Decay",
+    "Disarming Hex",
+    "Duration Extender",
+    "Echo Shard",
+    "Escalating Exposure",
+    "Ethereal Shift",
+    "Extra Charge",
+    "Extra Spirit",
+    "Focus Lens",
+    "Golden Goose Egg",
+    "Greater Expansion",
+    "Improved Spirit",
+    "Knockdown",
+    "Lightning Scroll",
+    "Magic Carpet",
+    "Mercurial Magnum",
+    "Mystic Burst",
+    "Mystic Expansion",
+    "Mystic Regeneration",
+    "Mystic Reverb",
+    "Mystic Slow",
+    "Mystic Vulnerability",
+    "Quicksilver Reload",
+    "Radiant Regeneration",
+    "Rapid Recharge",
+    "Refresher",
+    "Rusted Barrel",
+    "Scourge",
+    "Silence Wave",
+    "Slowing Hex",
+    "Spirit Burn",
+    "Spirit Sap",
+    "Spirit Snatch",
+    "Spirit Strike",
+    "Superior Cooldown",
+    "Superior Duration",
+    "Suppressor",
+    "Surge of Power",
+    "Tankbuster",
+    "Torment Pulse",
+    "Transcendent Cooldown",
+    "Vortex Web"
+  ]
         };
 
         let allItemsPool = [];
@@ -158,12 +292,13 @@
         function initPool() {
             allItemsPool = [];
             itemsDatabase.weapon.forEach(name => allItemsPool.push({ name, type: 'weapon', suffix: '.png' }));
-            itemsDatabase.vitality.forEach(name => allItemsPool.push({ name, type: 'vitality', suffix: '_sm.webp' }));
-            itemsDatabase.spirit.forEach(name => allItemsPool.push({ name, type: 'spirit', suffix: '_sm.webp' }));
+            itemsDatabase.vitality.forEach(name => allItemsPool.push({ name, type: 'vitality', suffix: '.png' }));
+            itemsDatabase.spirit.forEach(name => allItemsPool.push({ name, type: 'spirit', suffix: '.png' }));
         }
 
-        function slugify(text) {
-            return text.toLowerCase().replace(/'/g, '').replace(/\s+/g, '_');
+        function itemNameToFileName(name) {
+            // Convert "Active Reload" to "ActiveReload"
+            return name.split(' ').join('');
         }
 
         function getRandomItem() {
@@ -251,9 +386,9 @@
         function updateCardContent(card, item) {
             const img = card.querySelector('.item-image');
             const title = card.querySelector('.item-name');
-            const fileName = slugify(item.name);
+            const fileName = itemNameToFileName(item.name);
 
-            img.src = `img/${fileName}${item.suffix}`;
+            img.src = `img/${item.type}/${fileName}.png`;
             title.textContent = item.name;
 
             img.onerror = function() { 
