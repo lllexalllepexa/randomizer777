@@ -7,5 +7,5 @@ A simple web app that generates random item builds for Deadlock. Click the butto
 **That's it!** No build tools, no dependencies, no installation needed. 🚀
 
 TO-DO😉🤞😉🤞🎶🎶
-- [ ] Craft chains
+- [ ] Craft chains(If you got Healing Rite, you won't get Healing Nova or Healing Beam)
 - [ ] Add Grit
