@@ -5,3 +5,7 @@ A simple web app that generates random item builds for Deadlock. Click the butto
 
 
 **That's it!** No build tools, no dependencies, no installation needed. 🚀
+
+TO-DO😉🤞😉🤞🎶🎶
+- [ ] Craft chains
+- [ ] Add Grit
